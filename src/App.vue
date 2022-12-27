@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Home/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Home from './components/Home.vue'
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: { Home },
+name:"Main-page"
 }
+
+// var count=100;
+// var i=0;
+// while(i<count){
+// var bubble=document.createElement("i")
+// var x=Math.random()*window.innerWidth;
+// var y=Math.random()*window.innerHeight;
+// var size=Math.round()*10;
+// bubble.style.width=1+size+'px'
+// bubble.style.height=1+size+'px'
+// bubble.style.top=y+'px'
+// bubble.style.left=x+'px'
+
+// i++
+// }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
